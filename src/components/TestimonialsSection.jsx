@@ -1,7 +1,5 @@
-// src/components/TestimonialsSection.jsx
 import React from "react";
 
-// Import the avatar images
 import avatar1 from "../assets/Avatars/avatar-1.jpg";
 import avatar2 from "../assets/Avatars/avatar-2.jpg";
 import avatar3 from "../assets/Avatars/avatar-3.jpg";
@@ -10,25 +8,25 @@ import avatar4 from "../assets/Avatars/avatar-4.jpg";
 export default function TestimonialsSection() {
   const testimonials = [
     {
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit nulla eu.",
+      text: "As a developer, I appreciate a clean and efficient user experience. This site delivered just that. The search was fast, the filters were intuitive, and the booking process was seamless. A truly well-built platform.",
       name: "KEVIN MARTHIN",
       title: "Developer",
       avatar: avatar1,
     },
     {
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit nulla eu.",
+      text: "The user interface is beautiful and incredibly easy to navigate. I loved the visual layout of the hotel listings and the high-quality images. It made choosing a place to stay a delightful experience.",
       name: "JOE GABRIEL",
       title: "Designer",
       avatar: avatar2,
     },
     {
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit nulla eu.",
+      text: "Booking for a team can be complicated, but this website made it simple. I was able to compare multiple rooms and prices effortlessly, which saved me a significant amount of time and helped keep our project on budget.",
       name: "JOIN MANSOOR",
       title: "Project Manager",
       avatar: avatar3,
     },
     {
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit nulla eu.",
+      text: "For business travel, reliability is key. This platform has become my go-to for its consistent quality and trustworthy reviews. I can always find a great hotel that meets my needs, no matter the city.",
       name: "SUSAN DAY",
       title: "CEO",
       avatar: avatar4,

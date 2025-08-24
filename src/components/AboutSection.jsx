@@ -1,8 +1,4 @@
-// src/components/AboutSection.jsx
 import React from "react";
-import { FaInstagram, FaFacebookF } from "react-icons/fa";
-
-// Import the image you added to your assets folder
 import aboutImage from "../assets/about-image.jpg";
 
 export default function AboutSection() {
@@ -10,34 +6,19 @@ export default function AboutSection() {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center gap-12">
-          {/* Left Column: Text Content */}
           <div className="md:w-1/2">
             <h3 className="text-green-500 font-semibold mb-2">About Us</h3>
             <h2 className="text-4xl font-bold text-gray-800 mb-6">
-              We provide <span className="text-gray-500">Solution</span> to grow your
-              business
+              Your Gateway to Unforgettable Stays
             </h2>
             <p className="text-gray-600 mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              assumenda, maiores eaque voluptatibus, quos saepe ratione
-              consequatur iusto alias, enim in. Assumenda, nobis.
+              At Hotel Paradise, our mission is to make travel accessible and enjoyable for everyone. We believe that finding the perfect accommodation should be a simple and seamless experience, allowing you to focus on what truly matters: creating lasting memories.
             </p>
             <p className="text-gray-600 mb-8">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-              quisquam, eius, quod corporis sunt sint eveniet veritatis
-              voluptates nam unde, quibusdam excepturi.
+              Our platform offers a vast selection of hotels, from luxury resorts to cozy boutique stays, all at competitive prices. With our user-friendly interface and powerful search tools, you can easily compare options, read reviews, and book your ideal room with confidence and ease.
             </p>
-            <div className="flex items-center gap-4">
-              <button className="flex items-center justify-center w-16 h-16 border-2 border-red-500 rounded-full text-red-500 hover:bg-red-500 hover:text-white transition-all duration-300">
-                <FaInstagram size={30} />
-              </button>
-              <button className="flex items-center justify-center w-16 h-16 bg-blue-600 rounded-full text-white hover:bg-blue-700 transition-all duration-300">
-                <FaFacebookF size={30} />
-              </button>
-            </div>
           </div>
 
-          {/* Right Column: Image */}
           <div className="md:w-1/2">
             <img
               src={aboutImage}

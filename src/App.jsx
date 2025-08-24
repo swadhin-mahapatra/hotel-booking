@@ -1,4 +1,3 @@
-// src/App.jsx
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
@@ -9,7 +8,7 @@ import About from "./pages/About";
 import Rooms from "./pages/Rooms";
 import Contact from "./pages/Contact";
 import Testimonial from "./pages/Testimonial";
-import Destinations from "./pages/Destinations"; // Import Destinations
+import Destinations from "./pages/Destinations"; 
 import SingleDestination from "./pages/SingleDestination";
 
 export default function App() {

@@ -1,4 +1,3 @@
-// src/components/HowItWorks.jsx
 import React from "react";
 import { FaMapMarkedAlt, FaSearchDollar, FaBuilding } from "react-icons/fa";
 
@@ -8,20 +7,21 @@ export default function HowItWorks() {
       icon: <FaMapMarkedAlt size={50} className="text-green-500" />,
       title: "Search Multiple Destinations",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, dicta maiores. Quam, molestiae quia.",
+        "Explore a wide range of cities and destinations with our simple search. Your next adventure is just a click away.",
     },
     {
       icon: <FaSearchDollar size={50} className="text-green-500" />,
       title: "Find the Lowest Hotel Prices",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, dicta maiores. Quam, molestiae quia.",
+        "We compare prices from hundreds of providers to ensure you get the best deal, saving you time and money on your booking.",
     },
     {
       icon: <FaBuilding size={50} className="text-green-500" />,
       title: "Find the Right Hotel for You",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, dicta maiores. Quam, molestiae quia.",
+        "Filter by price, amenities, and reviews to find the perfect hotel that matches your unique needs and preferences.",
     },
+
   ];
 
   return (

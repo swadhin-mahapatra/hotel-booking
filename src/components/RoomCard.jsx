@@ -1,8 +1,6 @@
-// src/components/RoomCard.jsx
 import React from "react";
 import { FaStar, FaWifi, FaTv, FaUtensils, FaMugHot } from "react-icons/fa";
 
-// Helper component for star ratings
 const StarRating = ({ rating }) => {
   const stars = [];
   for (let i = 0; i < 5; i++) {
@@ -40,7 +38,7 @@ export default function RoomCard({ img, title, price, rating, features }) {
         <div className="mt-auto">
           <div className="flex justify-between items-center">
             <p className="text-xl text-gray-800 font-semibold">
-              ${price} / <span className="font-normal text-sm">Per night</span>
+              Rs {price} / <span className="font-normal text-sm">Per night</span>
             </p>
             <button className="bg-green-500 text-white font-bold py-2 px-4 rounded-md hover:bg-green-600 transition duration-300">
               Book Now

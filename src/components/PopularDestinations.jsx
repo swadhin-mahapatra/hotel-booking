@@ -1,8 +1,7 @@
-// src/components/PopularDestinations.jsx
 import React from "react";
-import { Link } from "react-router-dom"; // Import Link
+import { Link } from "react-router-dom"; 
 import { FaExternalLinkAlt } from "react-icons/fa";
-import { destinationsData } from "../data"; // Import data from central file
+import { destinationsData } from "../data";
 
 export default function PopularDestinations() {
   return (
@@ -13,7 +12,6 @@ export default function PopularDestinations() {
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {destinationsData.map((dest) => (
-            // Wrap the card in a Link component
             <Link to={`/destination/${dest.id}`} key={dest.id} className="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
               <img
                 src={dest.img}

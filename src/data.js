@@ -1,6 +1,3 @@
-// src/data.js
-
-// Import your destination images
 import dest1 from "./assets/Destinations/dest-1.jpg";
 import dest2 from "./assets/Destinations/dest-2.jpg";
 import dest3 from "./assets/Destinations/dest-3.jpg";

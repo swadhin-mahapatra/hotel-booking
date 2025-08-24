@@ -1,4 +1,3 @@
-// src/pages/Destinations.jsx
 import React from "react";
 import PageHeader from "../components/PageHeader";
 import PopularDestinations from "../components/PopularDestinations";

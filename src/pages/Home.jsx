@@ -1,6 +1,5 @@
-// src/pages/Home.jsx
 import React from "react";
-import HeroHome from "../components/HeroHome"; // Import the new Hero component
+import HeroHome from "../components/HeroHome"; 
 import AboutSection from "../components/AboutSection";
 import PopularHotels from "../components/PopularHotels";
 import PopularDestinations from "../components/PopularDestinations";

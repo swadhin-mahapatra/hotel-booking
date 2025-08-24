@@ -1,17 +1,14 @@
-// src/components/PopularHotels.jsx
 import React from "react";
 import Slider from "react-slick";
 import { FaMapMarkerAlt, FaStar } from "react-icons/fa";
 
-// Import local images (add the two new ones)
 import hotel1 from "../assets/Hotels/hotel-1.jpg";
 import hotel2 from "../assets/Hotels/hotel-2.jpg";
 import hotel3 from "../assets/Hotels/hotel-3.jpg";
 import hotel4 from "../assets/Hotels/hotel-4.jpg";
-import hotel5 from "../assets/Hotels/hotel-5.jpg"; // New
-import hotel6 from "../assets/Hotels/hotel-6.jpg"; // New
+import hotel5 from "../assets/Hotels/hotel-5.jpg";
+import hotel6 from "../assets/Hotels/hotel-6.jpg";
 
-// Helper component for star ratings (no changes here)
 const StarRating = ({ rating }) => {
   const stars = [];
   for (let i = 0; i < 5; i++) {
@@ -26,53 +23,51 @@ const StarRating = ({ rating }) => {
 };
 
 export default function PopularHotels() {
-  // Add two more hotel objects to the array
   const hotelData = [
     {
       img: hotel1,
-      location: "Italy",
-      name: "Valle",
-      rating: 4,
-      price: "250.00",
+      location: "Mumbai",
+      name: "The Taj Palace",
+      rating: 5,
+      price: "15,000",
     },
     {
       img: hotel2,
-      location: "United States",
-      name: "Hotel Las Trojes",
+      location: "Delhi",
+      name: "The Oberoi",
       rating: 5,
-      price: "400.00",
+      price: "12,500",
     },
     {
       img: hotel3,
-      location: "Canada",
-      name: "Rosen Shingle Creek",
+      location: "Goa",
+      name: "Leela Palace",
       rating: 4,
-      price: "500.00",
+      price: "9,000",
     },
     {
       img: hotel4,
-      location: "Thailand",
-      name: "Ansan Hotel",
+      location: "Jaipur",
+      name: "Rambagh Palace",
       rating: 5,
-      price: "100.00",
+      price: "20,000",
     },
-    { // New Hotel
+    {
       img: hotel5,
-      location: "Spain",
-      name: "The Madrid",
-      rating: 5,
-      price: "350.00",
-    },
-    { // New Hotel
-      img: hotel6,
-      location: "Australia",
-      name: "Sydney Harbour Inn",
+      location: "Bengaluru",
+      name: "ITC Gardenia",
       rating: 4,
-      price: "280.00",
+      price: "10,000",
+    },
+    {
+      img: hotel6,
+      location: "Udaipur",
+      name: "The Oberoi Udaivilas",
+      rating: 5,
+      price: "25,000",
     },
   ];
 
-  // Slider settings (no changes needed, it will adapt)
   const settings = {
     dots: true,
     infinite: true,
@@ -125,7 +120,7 @@ export default function PopularHotels() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">{hotel.name}</h3>
                   <p className="text-lg text-gray-600 font-semibold">
-                    ${hotel.price} / <span className="font-normal text-sm">Per night</span>
+                    ₹{hotel.price} / <span className="font-normal text-sm">Per night</span>
                   </p>
                 </div>
               </div>

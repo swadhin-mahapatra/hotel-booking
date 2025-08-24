@@ -1,4 +1,3 @@
-// src/components/Header.jsx
 import React from "react";
 import { FaPhoneAlt, FaEnvelope, FaClock } from "react-icons/fa";
 
