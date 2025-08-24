@@ -1,12 +1,38 @@
-# React + Vite
+# Hotel Paradise: A Modern React-Based Hotel Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fully responsive, multi-page hotel booking website built from scratch using modern front-end technologies. The project demonstrates a strong understanding of component-based architecture, client-side routing, and creating a dynamic, interactive user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features & Technical Highlights
 
-## Expanding the ESLint configuration
+* **Component-Based Architecture**
+* **Client-Side Routing**
+* **Dynamic Routing**
+* **Responsive Design**
+* **Interactive UI Components**
+* **Centralized Data Management**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+* **Frontend**: React.js
+* **Routing**: React Router DOM
+* **Styling**: Tailwind CSS
+* **UI Components**: React Slick (for carousels), React Icons
+
+---
+
+## Setup and Run
+
+1.  **Install dependencies:**
+    ```sh
+    npm install
+    ```
+2.  **Run the development server:**
+    ```sh
+    npm run dev
+    ```
+
+The application will be running on `http://localhost:5173`.
