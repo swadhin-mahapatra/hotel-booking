@@ -16,13 +16,10 @@ export default function Navbar() {
         </ul>
         <div className="flex items-center gap-4">
           <div className="text-sm">
-            <Link to="/signin" className="hover:text-green-500">Sign In</Link>
+            <Link to="/login" className="hover:text-green-500">Sign In</Link>
             <span className="mx-1">/</span>
             <Link to="/register" className="hover:text-green-500">Register</Link>
           </div>
-          <button className="bg-green-500 text-white font-bold py-2 px-4 rounded-md hover:bg-green-600 transition duration-300">
-            Request a Quote
-          </button>
         </div>
       </div>
     </nav>
